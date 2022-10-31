@@ -107,6 +107,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/ms01-common/proprietary/vendor/lib/libOmxMux.so:system/vendor/lib/libOmxMux.so \
     vendor/samsung/ms01-common/proprietary/vendor/lib/libOmxQcelp13Dec.so:system/vendor/lib/libOmxQcelp13Dec.so \
     vendor/samsung/ms01-common/proprietary/vendor/lib/libOmxWmaDec.so:system/vendor/lib/libOmxWmaDec.so \
+	vendor/samsung/ms01-common/proprietary/vendor/lib/libOmxMux.so:system/vendor/lib/libOmxMux.so \
+	vendor/samsung/ms01-common/proprietary/vendor/lib/libHevcSwDecoder.so:system/vendor/lib/libHevcSwDecoder.so \
     vendor/samsung/ms01-common/proprietary/vendor/lib/libQSEEComAPI.so:system/vendor/lib/libQSEEComAPI.so \
     vendor/samsung/ms01-common/proprietary/vendor/lib/libTimeService.so:system/vendor/lib/libTimeService.so \
     vendor/samsung/ms01-common/proprietary/vendor/lib/libacdbloader.so:system/vendor/lib/libacdbloader.so \
