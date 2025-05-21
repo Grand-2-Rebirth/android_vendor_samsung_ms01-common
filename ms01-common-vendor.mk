@@ -18,14 +18,10 @@
 PRODUCT_COPY_FILES += \
     vendor/samsung/ms01-common/proprietary/vendor/bin/adsprpcd:system/vendor/bin/adsprpcd \
     vendor/samsung/ms01-common/proprietary/vendor/bin/btnvtool:system/vendor/bin/btnvtool \
-    vendor/samsung/ms01-common/proprietary/vendor/bin/ds_fmc_appd:system/vendor/bin/ds_fmc_appd \
-    vendor/samsung/ms01-common/proprietary/vendor/bin/efsks:system/vendor/bin/efsks \
     vendor/samsung/ms01-common/proprietary/vendor/bin/hci_qcomm_init:system/vendor/bin/hci_qcomm_init \
     vendor/samsung/ms01-common/proprietary/vendor/bin/irsc_util:system/vendor/bin/irsc_util \
-    vendor/samsung/ms01-common/proprietary/vendor/bin/ks:system/vendor/bin/ks \
     vendor/samsung/ms01-common/proprietary/vendor/bin/mm-qcamera-daemon:system/vendor/bin/mm-qcamera-daemon \
     vendor/samsung/ms01-common/proprietary/vendor/bin/mpdecision:system/vendor/bin/mpdecision \
-    vendor/samsung/ms01-common/proprietary/vendor/bin/qcks:system/vendor/bin/qcks \
     vendor/samsung/ms01-common/proprietary/vendor/bin/qmuxd:system/vendor/bin/qmuxd \
     vendor/samsung/ms01-common/proprietary/vendor/bin/qseecomd:system/vendor/bin/qseecomd \
     vendor/samsung/ms01-common/proprietary/vendor/bin/radish:system/vendor/bin/radish \
@@ -65,21 +61,18 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/ms01-common/proprietary/vendor/lib/libarcsoft_picaction.so:system/vendor/lib/libarcsoft_picaction.so \
     vendor/samsung/ms01-common/proprietary/vendor/lib/libarcsoft_sensorndk.so:system/vendor/lib/libarcsoft_sensorndk.so \
     vendor/samsung/ms01-common/proprietary/vendor/lib/libarcsoft_skin_soften.so:system/vendor/lib/libarcsoft_skin_soften.so \
-    vendor/samsung/ms01-common/proprietary/vendor/lib/libatparser.so:system/vendor/lib/libatparser.so \
     vendor/samsung/ms01-common/proprietary/vendor/lib/libchromatix_s5k6a3yx_smart_stay.so:system/vendor/lib/libchromatix_s5k6a3yx_smart_stay.so \
     vendor/samsung/ms01-common/proprietary/vendor/lib/libchromatix_s5k6a3yx_vt.so:system/vendor/lib/libchromatix_s5k6a3yx_vt.so \
     vendor/samsung/ms01-common/proprietary/vendor/lib/libchromatix_s5k6a3yx_vt_hd.so:system/vendor/lib/libchromatix_s5k6a3yx_vt_hd.so \
-    vendor/samsung/ms01-common/proprietary/vendor/lib/libcordon.so:system/vendor/lib/libcordon.so \
     vendor/samsung/ms01-common/proprietary/vendor/lib/libdrmdecrypt.so:system/vendor/lib/libdrmdecrypt.so \
-    vendor/samsung/ms01-common/proprietary/vendor/lib/libfactoryutil.so:system/vendor/lib/libfactoryutil.so \
     vendor/samsung/ms01-common/proprietary/vendor/lib/libmdmdetect.so:system/vendor/lib/libmdmdetect.so \
     vendor/samsung/ms01-common/proprietary/vendor/lib/libmmcamera2_stats_algorithm.so:system/vendor/lib/libmmcamera2_stats_algorithm.so \
     vendor/samsung/ms01-common/proprietary/vendor/lib/libmmcamera_cac.so:system/vendor/lib/libmmcamera_cac.so \
     vendor/samsung/ms01-common/proprietary/vendor/lib/libmmcamera_cac2_lib.so:system/vendor/lib/libmmcamera_cac2_lib.so \
     vendor/samsung/ms01-common/proprietary/vendor/lib/libmmcamera_fidelix_eeprom.so:system/vendor/lib/libmmcamera_fidelix_eeprom.so \
     vendor/samsung/ms01-common/proprietary/vendor/lib/libmmcamera_wavelet_lib.so:system/vendor/lib/libmmcamera_wavelet_lib.so \
-    vendor/samsung/ms01-common/proprietary/vendor/lib/libomission_avoidance.so:system/vendor/lib/libomission_avoidance.so \
     vendor/samsung/ms01-common/proprietary/vendor/lib/libperipheral_client.so:system/vendor/lib/libperipheral_client.so \
+	vendor/samsung/ms01-common/proprietary/vendor/lib/libprotobuf-cpp-full-v23.so:system/vendor/lib/libprotobuf-cpp-full-v23.so \
     vendor/samsung/ms01-common/proprietary/vendor/lib/libyasalgo.so:system/vendor/lib/libyasalgo.so \
     vendor/samsung/ms01-common/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
     vendor/samsung/ms01-common/proprietary/vendor/lib/E08QL_libchromatix_s5k4h5yb_common.so:system/vendor/lib/E08QL_libchromatix_s5k4h5yb_common.so \
@@ -125,8 +118,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/ms01-common/proprietary/vendor/lib/libdrmfs.so:system/vendor/lib/libdrmfs.so \
     vendor/samsung/ms01-common/proprietary/vendor/lib/libdrmtime.so:system/vendor/lib/libdrmtime.so \
     vendor/samsung/ms01-common/proprietary/vendor/lib/libdsi_netctrl.so:system/vendor/lib/libdsi_netctrl.so \
-    vendor/samsung/ms01-common/proprietary/vendor/lib/libdsnetutils.so:system/vendor/lib/libdsnetutils.so \
-    vendor/samsung/ms01-common/proprietary/vendor/lib/libdsucsd.so:system/vendor/lib/libdsucsd.so \
     vendor/samsung/ms01-common/proprietary/vendor/lib/libdsutils.so:system/vendor/lib/libdsutils.so \
     vendor/samsung/ms01-common/proprietary/vendor/lib/libfastcvadsp_stub.so:system/vendor/lib/libfastcvadsp_stub.so \
     vendor/samsung/ms01-common/proprietary/vendor/lib/libfastcvopt.so:system/vendor/lib/libfastcvopt.so \
